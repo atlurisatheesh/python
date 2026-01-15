@@ -30,3 +30,24 @@ A function is:
 '''A named block of code that does one job and can be reused.
 
 Instead of writing the same logic again and again, you write it once.'''
+
+
+Why Functions Are CRITICAL (Real Talk)
+
+Without functions:
+
+'''Code becomes long
+
+Bugs are repeated
+
+Hard to change logic
+
+With functions:
+
+Easy to modify rules
+
+Easy to test
+
+Easy to build APIs later (FastAPI)
+
+Functions are the bridge to real applications.'''
