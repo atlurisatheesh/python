@@ -1,0 +1,39 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+
+# Virtual environments
+venv/
+.venv/
+venv311/
+ENV/
+
+# Git
+.git/
+.gitignore
+
+# Environment files
+.env
+.env.local
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Testing
+.pytest_cache/
+.coverage
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Development
+*.log
+.dockerignore
+Dockerfile
