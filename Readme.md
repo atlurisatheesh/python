@@ -51,3 +51,16 @@ Easy to test
 Easy to build APIs later (FastAPI)
 
 Functions are the bridge to real applications.'''
+
+
+What is Pandas? (Simple Explanation)
+
+'''Pandas is a Python library used to:
+
+Read CSV / Excel files
+
+Work with tables (rows & columns)
+
+Filter, clean, and analyze data
+
+Think of it like Excel in Python.'''
