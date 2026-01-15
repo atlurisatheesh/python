@@ -55,9 +55,12 @@ for train in trains :
 
 
 trains = [
-    {"number": "12707", "quota": "tatkal", "class_type": "sleeper"},
-    {"number": "12603", "quota": "general"},
-    {"number": "12759", "quota": "tatkal"}
+    {"number": "12707", "quota": "tatkal", "class_type": "sleeper", "departure": 22},
+    {"number": "12603", "quota": "general", "class_type": "AC", "departure": 20},
+    {"number": "12759", "quota": "tatkal", "class_type": "sleeper", "departure": 21},
+    {"number": "22691", "quota": "tatkal", "class_type": "sleeper", "departure": 21.30},
+    {"number": "22653", "quota": "tatkal", "class_type": "sleeper", "departure": 23}
+
 ]
 
 print (trains)
@@ -80,3 +83,20 @@ for train in trains:
         print(f"Train {train['number']} → Tatkal at 11 AM")
     else:
         print(f"Train {train['number']} → Tatkal at 10 AM")
+
+
+for train in trains:
+    if train.get("class_type") == "sleeper" and train.get("departure") >= 22:
+        print(f"Train {train['number']} → Tatkal at 11 AM")
+    else:
+        print(f"Train {train['number']} → Tatkal at 10 AM")
+
+for train in trains:
+    print(f"I am printing from last for loop {train}")
+    if train.get("class_type") == "sleeper":
+        print(f"Train {train['number']} → Tatkal at 11 AM")
+
+
+for train in trains:
+    if train.get("class_type") == "sleeper" and train.get("departure") >=21:
+        print(f"Train {train['number']} → these are sleeper class trains departing after 9 PM")
