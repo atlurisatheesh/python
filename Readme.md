@@ -64,3 +64,10 @@ Work with tables (rows & columns)
 Filter, clean, and analyze data
 
 Think of it like Excel in Python.'''
+
+
+What ML Means (In Simple Words)
+
+Machine Learning means:
+
+The computer learns patterns from past data and uses them to predict future outcomes.

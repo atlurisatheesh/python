@@ -22,4 +22,4 @@ for train in trains:
     )
 
 
-    print(type(confirm_only))
+    

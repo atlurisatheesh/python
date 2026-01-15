@@ -1,0 +1,5 @@
+train_number,class_type,is_weekend,day,confirmed
+12707,sleeper,1,saturday,1
+12603,AC,1,saturday,0
+12759,sleeper,0,tuesday,1
+12707,AC,0,wednesday,0
